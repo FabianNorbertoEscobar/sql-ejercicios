@@ -1,0 +1,46 @@
+/*
+Ejercicios para Consultas en SQL 
+SINTAXIS BÁSICA: SELECT…FROM + USO DE WHERE, AND, OR, BETWEEN
+Base de datos: escuela
+1) Seleccionar todos los datos de la tabla alumnos:
+2) Seleccionar solamente el legajo y el nombre de los alumnos:
+3) Mostrar todos los datos de aquellos alumnos aprobados (con notas mayores o iguales a 7)
+4) Mostrar el id y el nombre de aquellas escuelas cuya capacidad sea inferior a 200 (no mostrar la columna capacidad).
+5) Mostrar el nombre y la nota de aquellos alumnos cuya nota se encuentre entre 8 y 10
+6) Repetir el ejercicio anterior, utilizando BETWEEN
+7) Mostrar el nombre, la localidad y la provincia de aquellas escuelas situadas en Buenos Aires o Jujuy
+SINTAXIS BÁSICA: SELECT…FROM + USO DE LIKE, NOT LIKE Y %
+8) Mostrar todos los datos de los alumnos llamados Pietra González
+9) Repetir el ejercicio anterior, pero con aquellos que no se llamen Pietra González
+10) Mostrar todos los datos de los alumnos cuyo nombre comience con R
+11) Mostrar todos los datos de los alumnos cuyo apellido termine con Z
+12) Mostrar todos los datos de los alumnos cuyo nombre contenga una M
+USOS DE JOIN Y ALIAS PARA TABLAS Y CAMPOS
+13) Mostrar el legajo, el nombre del alumno y el nombre de la escuela de todos los alumnos
+14) Modificar el ejercicio anterior utilizando alias de tablas y alias de columnas de modo tal que los datos se muestren de esta manera:Legajo, Nombre alumno, Nombre escuela
+15) Mostrar todos los alumnos, tengan o no escuela asignada.
+16) Mostrar todas las escuelas con el nombre de cada alumno (aunque a la escuela no asista ningún alumno).
+USO DE IS NULL / IS NOT NULL
+17) Mostrar todos los datos de los alumnos que tengan notas.
+18) Mostrar todos los datos de los alumnos que no tengan notas.
+ALTER TABLE
+19) Realizar lo siguiente:
+  a) Agregar a través de Alter Table una en la tabla escuelas columna llamada “Partido”, a la derecha de Localidad con una cadena vacía como valor por defecto (armar la sentencia a través de Alter Table y ejecutar desde la consulta).
+  b) Ejecutar una consulta donde se vean todos los campos para confirmar que se ha agregado el campo “partido”.
+  c) Eliminar esa columna utilizando Alter Table, no es necesario ejecutarlo desde la consulta.
+LIMIT Y ORDER BY
+22) Obtener un ranking de las primeras 3 escuelas de mayor capacidad.
+FUNCIONES DE AGREGACIÓN Y AGRUPAMIENTO / USO DE IN
+23) Contar la cantidad de alumnos de la tabla homónima. Llamar a la columna “Cantidad de alumnos”.
+24) Repetir la consulta anterior consultando solamente cuya nota sea menor a 7.
+25) Obtener la capacidad total de las escuelas de la provincia de Buenos Aires
+26) Repetir el ejercicio anterior pero solamente con las escuelas de Córdoba y Jujuy
+27) Obtener el promedio de notas de los alumnos aprobados con más de 7
+28) Obtener la capacidad máxima y la capacidad mínima de alumnos
+29) Obtener el total de capacidad de las escuelas por provincia
+30) Obtener la cantidad de alumnos por grado
+DIFERENCIAS ENTRE HAVING Y WHERE
+31) Mostrar las escuelas y la nota máxima para cada una siempre y cuando sean mayores o iguales a 7.
+SUBCONSULTAS
+32) Mostrar la información de las escuelas cuyos alumnos tengan una nota igual a 10(9.99), utilizando una subconsulta.
+*/
